@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A190AB65-63FE-42BA-82D1-5F14CD6774B0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TekSpeech.DialogAnalyzer.Lib</RootNamespace>
+    <AssemblyName>TekSpeech.DialogAnalyzer.Lib</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PdfSharp">
+      <HintPath>..\SDK\PDFsharp-MigraDocFoundation-Assemblies-1_32\GDI+\PdfSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp.Charting">
+      <HintPath>..\SDK\PDFsharp-MigraDocFoundation-Assemblies-1_32\GDI+\PdfSharp.Charting.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Configuration\User.cs" />
+    <Compile Include="Configuration\UserDictionary.cs" />
+    <Compile Include="Data\AnalyzerLogFile.cs" />
+    <Compile Include="Data\AnalyzerLogFileCache.cs" />
+    <Compile Include="Data\AnalyzerLogLine.cs" />
+    <Compile Include="Data\AnalyzerSearchResult.cs" />
+    <Compile Include="Data\AnalyzerUserLog.cs" />
+    <Compile Include="Data\AnalyzerUserLogCache.cs" />
+    <Compile Include="Data\AnalyzerUserReport.cs" />
+    <Compile Include="Data\SpeechCommandType.cs" />
+    <Compile Include="PDF\FileReportFieldPosition.cs" />
+    <Compile Include="PDF\UserReportFieldPosition.cs" />
+    <Compile Include="PDF\UserReportPdf.cs" />
+    <Compile Include="PDF\VoiceCommandCounter.cs" />
+    <Compile Include="PDF\VoiceCommandFieldPosition.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\binaryChefSvn\Figlut\code\trunk\Windows\Figlut.Server.Toolkit.45\Figlut.Server.Toolkit.45.csproj">
+      <Project>{a7c9a24d-e19b-42f5-a298-805a489334ef}</Project>
+      <Name>Figlut.Server.Toolkit.45</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

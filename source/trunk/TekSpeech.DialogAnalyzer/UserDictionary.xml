@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfUser xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <User>
+    <UserId>620</UserId>
+    <UserName>Abias Matsobane</UserName>
+  </User>
+  <User>
+    <UserId>88</UserId>
+    <UserName>Allan De Almeida</UserName>
+  </User>
+  <User>
+    <UserId>108</UserId>
+    <UserName>Alpheus Mabitsela</UserName>
+  </User>
+  <User>
+    <UserId>141</UserId>
+    <UserName>Cedrick Nkadimeng</UserName>
+  </User>
+  <User>
+    <UserId>104</UserId>
+    <UserName>Cornelius Mhlongacala</UserName>
+  </User>
+  <User>
+    <UserId>102</UserId>
+    <UserName>David Mohutsiwa</UserName>
+  </User>
+  <User>
+    <UserId>134</UserId>
+    <UserName>Dennis Rikhotso</UserName>
+  </User>
+  <User>
+    <UserId>129</UserId>
+    <UserName>Desmond Musheo</UserName>
+  </User>
+  <User>
+    <UserId>114</UserId>
+    <UserName>Douglas Mohale</UserName>
+  </User>
+  <User>
+    <UserId>137</UserId>
+    <UserName>Ebrahim Sarlie</UserName>
+  </User>
+  <User>
+    <UserId>131</UserId>
+    <UserName>Esrom Nthelebofu</UserName>
+  </User>
+  <User>
+    <UserId>106</UserId>
+    <UserName>Evans Mashego</UserName>
+  </User>
+  <User>
+    <UserId>119</UserId>
+    <UserName>Goodwill Mafiyela</UserName>
+  </User>
+  <User>
+    <UserId>107</UserId>
+    <UserName>Hlayisani Malukeke</UserName>
+  </User>
+  <User>
+    <UserId>148</UserId>
+    <UserName>Hlungwani Reginald</UserName>
+  </User>
+  <User>
+    <UserId>118</UserId>
+    <UserName>Innocent Yende</UserName>
+  </User>
+  <User>
+    <UserId>113</UserId>
+    <UserName>Jabulani Sindane</UserName>
+  </User>
+  <User>
+    <UserId>105</UserId>
+    <UserName>Joel Mabunda</UserName>
+  </User>
+  <User>
+    <UserId>109</UserId>
+    <UserName>Joseph Mhlanga</UserName>
+  </User>
+  <User>
+    <UserId>130</UserId>
+    <UserName>Judas Khosa</UserName>
+  </User>
+  <User>
+    <UserId>162</UserId>
+    <UserName>Ken Scott</UserName>
+  </User>
+  <User>
+    <UserId>619</UserId>
+    <UserName>Kufeni Sitoe</UserName>
+  </User>
+  <User>
+    <UserId>136</UserId>
+    <UserName>Lennox Monareng</UserName>
+  </User>
+  <User>
+    <UserId>152</UserId>
+    <UserName>Morgan Sedutla</UserName>
+  </User>
+  <User>
+    <UserId>127</UserId>
+    <UserName>Paul Kolozsvari</UserName>
+  </User>
+  <User>
+    <UserId>142</UserId>
+    <UserName>Pieter Robbertse</UserName>
+  </User>
+  <User>
+    <UserId>120</UserId>
+    <UserName>Pitso Railo</UserName>
+  </User>
+  <User>
+    <UserId>140</UserId>
+    <UserName>Qedi Xulu</UserName>
+  </User>
+  <User>
+    <UserId>116</UserId>
+    <UserName>Reginal Ramadolela</UserName>
+  </User>
+  <User>
+    <UserId>135</UserId>
+    <UserName>Roger Makhubedu</UserName>
+  </User>
+  <User>
+    <UserId>110</UserId>
+    <UserName>Sakhile  Ngcongo</UserName>
+  </User>
+  <User>
+    <UserId>117</UserId>
+    <UserName>Sibusiso Zulu</UserName>
+  </User>
+  <User>
+    <UserId>132</UserId>
+    <UserName>Steve Motsepa</UserName>
+  </User>
+  <User>
+    <UserId>124</UserId>
+    <UserName>Terrence Raboroke</UserName>
+  </User>
+  <User>
+    <UserId>115</UserId>
+    <UserName>Thabo Monama</UserName>
+  </User>
+  <User>
+    <UserId>122</UserId>
+    <UserName>Thapelo Bhiringana</UserName>
+  </User>
+  <User>
+    <UserId>112</UserId>
+    <UserName>Themba Ndanonde</UserName>
+  </User>
+  <User>
+    <UserId>103</UserId>
+    <UserName>Victor Ntoane</UserName>
+  </User>
+  <User>
+    <UserId>199</UserId>
+    <UserName>Vivian Mapadimeng</UserName>
+  </User>
+  <User>
+    <UserId>121</UserId>
+    <UserName>Vusi Raul</UserName>
+  </User>
+  <User>
+    <UserId>123</UserId>
+    <UserName>Wilson  Makja</UserName>
+  </User>
+  <User>
+    <UserId>133</UserId>
+    <UserName>Winners Rikhotso</UserName>
+  </User>
+</ArrayOfUser>
